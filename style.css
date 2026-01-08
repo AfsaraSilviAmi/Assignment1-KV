@@ -1,0 +1,46 @@
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.container{
+    width: 1600px;
+}
+
+.btn{
+   border-radius: 4px;
+   background-color: rgba(70, 145, 101, 1);
+   color:rgba(255, 255, 255, 1);
+   border:none;
+   height:44px;
+   width:auto;
+   padding: 12px 16px 12px 16px;
+
+   
+}
+.btn:hover{
+   color:aqua;
+   background-color: purple;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav img{
+    width: 140px;
+    height:60px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+
+}
+nav ul li{
+    margin-left: 32px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
