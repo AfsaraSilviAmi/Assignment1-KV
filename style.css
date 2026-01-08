@@ -49,7 +49,7 @@ nav ul li a{
 .banner{
     background-image: url("./images/hero-bg.png");
     text-align: center;
-    height: 1000px;
+    height: 650px;
     background-repeat: no-repeat;
     padding-top: 115px;
 }
@@ -61,6 +61,7 @@ nav ul li a{
     margin:0px auto;
     border-radius: 1000px;
     padding-top: 6px;
+    margin-bottom: 10px;
     
 }
 .ban-early i{
@@ -104,4 +105,63 @@ nav ul li a{
     padding: 12px 16px 12px 16px;
     margin-left: 15px;
 
+}
+.btn2:hover{
+    color:rgb(9, 255, 0);
+   background-color: rgb(247, 104, 127);
+}
+.sec1{
+    text-align: center;
+    margin-top: 0px;
+   
+    
+}
+.sec1 h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin:0px;
+    line-height: 58px;
+    
+}
+.sec1 p{
+    color:rgba(98, 115, 130, 1);
+    margin-bottom: auto;
+}
+.card-container{
+    display: flex;
+    width: 1360px;
+    height:300px;
+    align-items: center;
+    margin-left:120px;
+    margin-top: 60px;
+    gap:20px;
+    padding-bottom: 30px;
+}
+.card img{
+    background-color: rgba(249, 85, 85, 1);
+    width:50px;
+    height:auto;
+    border-radius: 100px;
+    padding: 14px 14px 14px 14px;
+    margin-top: 55px;
+}
+
+.card{
+  border:none;
+  border-radius: 8px;
+  box-shadow: 0px 1px 15px rgb(110, 105, 105);
+  background: rgba(255, 255, 255, 1);
+  align-items: center;
+  justify-content: center;
+  width: 322px;
+  height: 300px;
+  padding:20px;
+  
+}
+.card h2{
+    font-size: 24px;
+    font-weight: 600px;
+    font-weight: 700px;
+    text-align: center;
+    line-height: 29px;
 }
