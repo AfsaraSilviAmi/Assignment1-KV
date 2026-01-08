@@ -223,3 +223,29 @@ nav ul li a{
 .sec3 p{
     color:rgba(98, 115, 130, 1);
 }
+.social{
+    
+    background-color: rgba(0, 25, 49, 1);
+    color:white;
+    padding:120px 120px 0px 120px;
+}
+.social2{
+    display: flex;
+    justify-content: space-between;
+     margin-bottom: 168px;
+}
+
+.social2 p{
+   font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 190px;
+}
+.social .copyright{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
