@@ -4,7 +4,8 @@
   font-optical-sizing: auto;
 }
 .container{
-    width: 1600px;
+    max-width: 1600px;
+    margin:0px;
 }
 
 .btn{
@@ -25,6 +26,7 @@
 nav{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 10px;
 }
 nav img{
     width: 140px;
@@ -43,4 +45,63 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     
+}
+.banner{
+    background-image: url("./images/hero-bg.png");
+    text-align: center;
+    height: 1000px;
+    background-repeat: no-repeat;
+    padding-top: 115px;
+}
+.banner .ban-early{
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(70, 145, 101, 1);
+    width: 230px;
+    height: 30px;
+    margin:0px auto;
+    border-radius: 1000px;
+    padding-top: 6px;
+    
+}
+.ban-early i{
+    font-size: 10px;
+    
+}
+.ban-title{
+    font-size: 70px;
+    font-weight: 700px;
+    margin-top:0px;
+    
+}
+.ban-para{
+    color:white;
+    font-size:18px;
+    text-align:center;
+    line-height: 40px;
+    font-weight: 100px;
+    
+}
+.banner .btn{
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    gap:8px;
+    font-weight: 600px;
+}
+
+.btn2{
+    background-color: transparent;
+    border:1px solid white;
+    color:white;
+     display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    gap:10px;
+    font-weight: 600px;
+    border-radius: 4px;
+    height:44px;
+    width:auto;
+    padding: 12px 16px 12px 16px;
+    margin-left: 15px;
+
 }
